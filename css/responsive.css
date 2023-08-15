@@ -1,0 +1,123 @@
+/*Tables*/
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+.bio {
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.bio h1 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  color: #2f2f2f;
+}
+
+.exp p {
+  max-width: 18rem;
+}
+
+}
+
+
+/*Smartphones*/
+
+@media only screen and (max-width: 787px) {
+
+
+/* Shared */
+
+.header {
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.nav {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.nav ul li {
+  display:inline-block;
+  margin: 1rem 0.7rem 0 0.7rem;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* About Me */
+
+.avatar {
+  display: block;
+  width: 100%;
+  border-radius: 100%;
+  border: 15px solid #fff;
+  box-shadow: 0px 0px 20px 2px #e3e3e3;
+}
+
+.bio h1 {
+  font-size: 21px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  color: #2f2f2f;
+}
+
+.bio, .bio p {
+  text-align: center;
+}
+
+/* Resumé */
+
+.exp_title {
+  padding-top: 2rem;
+}
+
+.exp_title, .exp.exp h5, .exp h4, .exp p {
+  text-align: center;
+}
+
+.exp_title:after {
+  margin: 8px auto;
+}
+
+.exp p:after {
+  margin: 15px auto;
+}
+
+.skills {
+  padding: 0;
+}
+
+/* Contact */
+
+.contact {
+  margin-top: 4rem;
+}
+
+.contact_data {
+  margin-right: 0;
+  margin-bottom: 1rem;
+}
+
+.arrow {
+display: none;
+}
+
+}

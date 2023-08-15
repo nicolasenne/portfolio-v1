@@ -1,0 +1,97 @@
+/* Education and Experience */
+
+.exp_title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.exp_title:after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 3px;
+  background: #ff004d;
+  margin: 8px 0;
+}
+
+.exp h5 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 1rem 0 0.5rem 0;
+  color: #888787;
+}
+
+.exp h4 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.exp p {
+  text-align: justify;
+  line-height: 2em;
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 22rem;
+  color: #9c9b9b;
+}
+
+.exp p:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: #e5e5e5;
+  margin: 15px 0;
+}
+
+
+/* Skills */
+
+.skills {
+  padding: 3rem 0 4rem 0;
+}
+
+.skills_data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  margin: 1rem 1rem 0 0;
+  border-radius: 4px;
+  border: 2px solid #e5e5e5;
+  background-color: #fff;
+}
+
+.skills_data:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(-2deg); }
+  30% { transform: translate(3px, 2px) rotate(-1deg); }
+  40% { transform: translate(1px, -1px) rotate(0deg); }
+  50% { transform: translate(-1px, 2px) rotate(1deg); }
+  60% { transform: translate(-3px, 1px) rotate(2deg); }
+  70% { transform: translate(3px, 1px) rotate(1deg); }
+  80% { transform: translate(-1px, -1px) rotate(0deg); }
+  90% { transform: translate(1px, 2px) rotate(-1deg); }
+  100% { transform: translate(0px, 1px) rotate(0deg); }
+}
+
+.skills_icon {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  color: #9c9b9b;
+}
+
+.skills h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #9c9b9b;
+}

@@ -1,0 +1,38 @@
+/* Contact */
+
+.contact_data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem 0 3rem 0;
+  margin-right: 1rem;
+  border-radius: 4px;
+  border: 2px solid #e5e5e5;
+  background-color: #fff;
+}
+
+.contact h3 {
+  font-weight: 500;
+  color: #222;
+}
+
+.contact h4 {
+  font-size: 14px;
+  margin: 0.5rem 0;
+  color: #a5a5a5;
+}
+
+.contact_img {
+  height: 4rem;
+  margin: 1rem;
+}
+
+.contact_data:hover {
+  box-shadow: 0px 0px 10px 1px #e3e3e3;
+}
+
+.arrow {
+  height: 210px;
+  margin: 1rem 4rem;
+}
